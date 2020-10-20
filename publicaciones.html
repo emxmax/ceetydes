@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+<body>
+	<style>
+		#bloques-investigaciones{
+			background-color: white;
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+		#bloques-investigaciones .card{
+			width: 100%;
+			display: block;
+			text-align: center;
+			padding: 20px;
+			background-color: #ffcc33;
+		}
+		#bloques-investigaciones .card h2{
+			font-family: Arial;
+		    font-size: 25px;
+		    font-weight: 700;
+		    font-style: normal;
+		    color: white;
+		    text-align: left;
+		    line-height: 27px;
+		    height: 100px;
+		}
+		#bloques-investigaciones .card a{
+			font-family: Arial;
+			font-size: 16px;
+			font-weight: 700;
+			font-style: normal;
+			color: black;
+			line-height: 17px;
+			text-decoration: none;
+		}
+		@media (max-width: 768px) {
+			#bloques-investigaciones .card h2{
+				font-size: 20px;
+			}
+			#bloques-investigaciones .card{
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+	</style>
+	<section class="container-fluid" id="bloques-investigaciones">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-offset-2 col-lg-8">
+					<div class="row">
+						<div class="col-lg-4 col-xs-6">
+							<div class="card card-1">
+								<h2>Entrevistas</h2>
+								<a href="/entrevistas/">Ver más</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xs-6">
+							<div class="card card-3">
+								<h2>Artículos</h2>
+								<a href="/articulos/">Ver más</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-xs-6">
+							<div class="card card-3">
+								<h2>Libros</h2>
+								<a href="/libro/">Ver más</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
